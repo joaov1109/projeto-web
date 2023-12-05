@@ -10,8 +10,8 @@ body {
 	padding: 0;
 	background: #E7E7DC url(./images/side.jpg) repeat-x left top;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #A19D9A;
+	font-size: 16px;
+	color: black
 }
 
 h1, h2, h3 {
@@ -101,43 +101,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
-/* Search */
 
-#search {
-	width: 280px;
-	height: 60px;
-	padding: 20px 0px 0px 0px;
-}
-
-#search form {
-	height: 41px;
-	margin: 0;
-	padding: 10px 0 0 0px;
-}
-
-#search fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-#search-text {
-	width: 170px;
-	padding: 6px 5px 2px 5px;
-	border: 1px solid #DEDEDE;
-	background: #FFFFFF;
-	text-transform: lowercase;
-	font: normal 11px Arial, Helvetica, sans-serif;
-	color: #5D781D;
-}
-
-#search-submit {
-	width: 50px;
-	height: 22px;
-	border: none;
-	background: #B9B9B9;
-	color: #000000;
-}
 
 /* Menu */
 
@@ -216,7 +180,7 @@ a:hover {
 
 .post .title {
 	text-transform: uppercase;
-	font-family: Impact, Arial, Helvetica, sans-serif;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 28px; 
 	font-weight: normal;
 	color: #606060;
@@ -224,7 +188,7 @@ a:hover {
 
 .post .title a {
 	border: none;
-	color: #606060;
+	color: black;
 }
 
 .post .meta {
@@ -311,7 +275,7 @@ a:hover {
 	font-family: Impact, Arial, Helvetica, sans-serif;
 	font-size: 1.8em;
 	font-weight: normal;
-	color: #606060;
+	color: black
 }
 
 #sidebar p {
